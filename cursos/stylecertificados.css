@@ -88,6 +88,8 @@ h1{
 .link_one{
     margin-top: 15px;
     font-size: 1.4rem;
+    color: #f6f6f6;
+    
 }
 .link_one_cliqueaqui{
     color: var(--cor-tercearia);
