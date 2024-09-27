@@ -54,7 +54,7 @@ h1{
 .apresentacao_conteudo{
     margin-top: 4%;
     margin-left: 4%;
-    width: 90%;
+    width: 80%;
     height: auto;
     display: flex;  
     justify-content: space-between;
@@ -71,9 +71,16 @@ h1{
 .apresentacao_conteudo_titulo{
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
+    color: var(--cor-quartenaria);
     margin-bottom: 15px;
 }
-
+.apresentacao_conteudo_topicos{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    gap: 30px;
+    color: var(--cor-tercearia);
+}
 .apresentacao_conteudo_texto{
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
@@ -129,15 +136,24 @@ h1{
         justify-content: center;
     }    
     .apresentacao{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
     .apresentacao_conteudo{
-        
+              
         width: auto;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: center;
         
     }
-    
+    .apresentacao_conteudo_secao{
+        width: auto;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Ajuste o espaçamento entre a imagem e o texto conforme necessário */
+        
+        
+    }
     
 }

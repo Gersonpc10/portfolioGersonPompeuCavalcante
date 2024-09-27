@@ -17,6 +17,9 @@ body{
     box-sizing: border-box;
     background-color:  var(--cor-primaria);
     color: var(--cor-secundaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .cabecalho{
     padding: 2% 0% 0% 15% ;
@@ -67,6 +70,11 @@ h1{
     align-items: center;
         
 }
+
+.link_one{
+    color: var(--cor-secundaria);
+    font-size: 1.5rem;
+}
 .link_one_cliqueaqui{
     color: var(--cor-tercearia);
     font-size: 1.5rem;
@@ -104,10 +112,16 @@ h1{
         justify-content: center;
     }    
     .apresentacao{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
     .apresentacao_conteudo{
         width: auto;
+    }
+    .apresentacao_imagem{
+        width: 30%;     /* Ajuste a largura conforme necessário */
+        height: auto;    /* Mantém a proporção da imagem */
+        display: block;
+        transition: transform 0.3s;
     }
 }
