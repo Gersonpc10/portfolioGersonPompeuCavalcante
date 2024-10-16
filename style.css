@@ -16,12 +16,14 @@
 }
 body{
     box-sizing: border-box;
+    
     background-color:  var(--cor-primaria);
     color: var(--cor-secundaria);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
+    
     
 }
 .cabecalho{
